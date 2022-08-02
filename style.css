@@ -1,21 +1,22 @@
-/*h1 {
+/* h1 {
     color: orange;
     border: 1px solid black;
     display: inline;
-}*/
+} */
 
+/* selection by tag */
 div {
     /* border: 1px solid red; */
     color: white;
 }
-
+/* selection by classes */
 .left-division {
+    vertical-align: top;
     display: inline-block;
     width: 65%;
     height: 500px;
     background: skyblue;
     vertical-align: top;
-
 }
 
 .right-division {
@@ -23,6 +24,7 @@ div {
     width: 30%;
     height: 250px;
     background: tomato;
+    vertical-align: top;
 }
 
 .parent-container {
