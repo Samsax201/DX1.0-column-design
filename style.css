@@ -1,5 +1,17 @@
-h1 {
+/*h1 {
     color: orange;
     border: 1px solid black;
     display: inline;
+}*/
+
+div {
+    /* border: 1px solid red; */
+    display: inline-block;
+    background: skyblue;
+    color: white;
+}
+
+.left-division {
+    width: 45%;
+    height: 500px;
 }
