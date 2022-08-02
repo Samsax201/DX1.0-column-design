@@ -6,12 +6,27 @@
 
 div {
     /* border: 1px solid red; */
-    display: inline-block;
-    background: skyblue;
     color: white;
 }
 
 .left-division {
-    width: 45%;
+    display: inline-block;
+    width: 65%;
     height: 500px;
+    background: skyblue;
+    vertical-align: top;
+
+}
+
+.right-division {
+    display: inline-block;
+    width: 30%;
+    height: 250px;
+    background: tomato;
+}
+
+.parent-container {
+    /* border: 3px solid black; */
+    width: 70%;
+    margin: 0 auto;
 }
