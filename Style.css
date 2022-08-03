@@ -1,0 +1,68 @@
+/* box model */
+/* flexbox */
+/* universalselector */
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'inter', sans-serif;
+}
+.parent-div {
+    /* border: 3PX solid black; */
+    display: flex;
+    font-size: 15px;
+    /* this is added by default */
+    /* flex-direction: column; */
+}
+
+.left-div {
+    background: #d9d9d9;
+    height: 500px;
+    width: 50%;
+    padding: 20px;
+    /* margin-left: 20px; */
+    /* padding-left: 30px; */
+    /* top right buttom and left */
+}
+
+.right-div {
+    /* background: #ff6347; */
+    background: url(./image1.jpg);
+    background-size: cover;
+    background-position: bottom left;
+    height: 500px;
+    width: 50%;
+}
+
+.smart-line {
+    background: #ff6347;
+    height: 16px;
+    width: 200px;
+
+}
+
+span {
+    color: #ff6347;
+}
+
+.hearder-logotext {
+    margin-bottom: 35px;
+}
+
+.header-headingtext {
+    margin-bottom: 22px;
+}
+
+.header-longtext {
+    margin-bottom: 35px;
+}
+
+.link-holder {
+    /* border: 3px solid black; */
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+    padding: 20px 0;
+}
